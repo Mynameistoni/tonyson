@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Home Security System</title>
+<style>
+  /* Reset default browser styles */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body, html { height: 100%; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+  /* Full screen background with a dark overlay */
+  .full-screen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('your-background-image.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    z-index: -100;
+  }
+  .dark-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* dark overlay for better readability */
+  }
+
+  /* Container for content */
+  .content-container {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 2rem;
+    color: white; /* Light text for contrast */
+    text-align: center;
+  }
+
+  /* Styling for main headline and subheadline */
+  .headline { font-size: 2.5rem; font-weight: 700; margin-bottom: 0.5rem; }
+  .subheadline { font-size: 1.5rem; margin-bottom: 2rem; }
+
+  /* Button styling for the call to action */
+  .cta-button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #0056b3; /* Blue for trust and security */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .cta-button:hover {
+    background-color: #003d82; /* Darken button on hover for interactivity */
+  }
+
+  /* Responsive video container */
+  .video-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 2rem auto;
+  }
+  .video-container video {
+    width: 100%;
+    border-radius: 10px;
+  }
+</style>
+</head>
+<body>
+<div class="full-screen-bg">
+  <div class="dark-overlay"></div>
+  <div class="content-container">
+    <h1 class="headline">Protect What Matters Most</h1>
+    <p class="subheadline">Your home's safety, streamlined and secure.</p>
+    <a href="content.html" class="cta-button">Discover More</a>
+    <div class="video-container">
+      <video autoplay loop muted playsinline>
+        <source src="Gen-2 2138704197, Smart Home Security , cam_YW 17.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</div>
+<script>
+  // Optional: Add your JavaScript here
+</script>
+</body>
+</html>
+
